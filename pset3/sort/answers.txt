@@ -1,0 +1,19 @@
+In this problem u have to determine the type of sort by applying it on various text files provided by cs50 (in random , reversed and sorted order)
+ and based on time determine the type of sort 
+
+sort1 uses: bubble sort
+
+
+How do you know?: when comparing it against sort3 (since i knew sort 2 is merge sort by checking worst case scenario of all three on reversed10000.txt file)
+it took half the time to sort the sorted array so i concluded that sort1 is bubble sort
+
+sort2 uses: merge sort
+
+How do you know?: by runnimg the worst case scenario (reversed text file) and against the best case scenario (sorted file) sort2 took almost half time which
+shows its the fastest among the 3 of them hence,its merge sort algorithm
+
+
+sort3 uses:  selection sort
+
+How do you know?: when running this algo against the best and worst case it almost took the same time , displaying the true nature of selection sort algorithm,
+
