@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
     // TODO: Copy header from input file to output file use fread here and fwrite to write 44 bytes
     // in the o/p file
 
-    fread(header, HEADER_SIZE, 1, input);
+    fread(header, HEADER_SIZE, 1, input);   // initially was doing an error here by using while loop , which was running indefinitely and crashing the code
 
     fwrite(header, HEADER_SIZE, 1, output);
 
