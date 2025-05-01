@@ -143,6 +143,6 @@ char random_allele()
     }
     else
     {
-        return 'O';
+        return 'O ';
     }
 }
